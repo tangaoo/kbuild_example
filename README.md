@@ -43,4 +43,5 @@ sed -i "s/example/yourname/g" `grep "example" -rl ./`
 
 在 `src` 每个子目录下生成 `builtin.o`， 在 `lib` 目录下生成 `lib.a` 文件，最后在链接成 `example` 文件。详细的子目录下 `Makefile` 和 `Kconfig` 编写规范见 Documentation 目录。
 
+Kbuild/Kconfig 在 Linux 中的构建过程参考[这篇](https://tangaoo.github.io/2022/06/26/Kbuild/)。
 
